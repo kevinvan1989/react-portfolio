@@ -23,6 +23,25 @@
 /* ------------------------------------------------------------------ */
 
 body { background: #0f0f0f; }
+/* Personal changes */
+header .social li a, .icon-down-circle { color: rgb(247, 248, 205) }
+header .social li a:hover, .icon-down-circle:hover { color: rgb(7, 80, 163); }
+
+video{
+   height: 100%;
+   width: 100vw;
+   z-index: -1;
+   display: block;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+header .banner{
+   background: rgba(0, 0, 0, .8);
+   padding: 10px;
+   border-radius: 30px;
+}
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -33,7 +52,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   /* background: #161415 url(../images/header-background.jpg) no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -94,8 +113,7 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
-header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+
 
 /* scrolldown link */
 header .scrolldown a {
@@ -1015,3 +1033,6 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+
+
+/* PERSONAL */
